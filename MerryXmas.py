@@ -1,0 +1,1 @@
+print ("Merry Christmas 2025")
