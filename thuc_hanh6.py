@@ -7,26 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1M3ViMLr73rFaVxuunt0v6C7NHeJldSpk
 """
 
-n = int(input("Nhập số tự nhiên:"))
-ket_qua = sum(range(1, n + 1))
-print=(f"Tổng 1 đến {n} là:")
-
-n = int(input("Hãy nhập số tự nhiên:"))
-for x in range (n+1):
-    if n%2 == 0 and n%3 == 0:
-      print("Kết quả của dãy số:")
-
-while True:
-    dl = input("Nhập Y hoặc y:")
-    if dl != 'Y' or dl != 'y' :
-     print("Vui lòng nhập lại")
-    else dl == 'Y' or dl != 'y' :
-      print("Login success!")
-      break
-
-n = int(input("Hãy nhập số tự nhiên:"))
-while n>0 or n<10:
-  int(input("Nhập lại số tự nhiên:"))
 
 x=0
 x2=10
